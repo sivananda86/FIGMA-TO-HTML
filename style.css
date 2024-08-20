@@ -1,0 +1,255 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #F9E0AE;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    margin-bottom: 25px;
+  }
+  
+  .hero-image {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cta {
+    display: inline-block;
+    background-color: #e25c28;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta:hover {
+    background-color: #c34818;
+  }
+  
+  /* Online centers section styles */
+  .online-centers {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .online-centers h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .online-centers ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Registration section styles */
+  .registration {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .registration h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .registration form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .registration input {
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  /* Community section styles */
+  .community {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .community h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .community-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .community-members img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .footer-left {
+    flex: 1;
+  }
+  
+  .footer-left .logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-right h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-right ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contacts p {
+    margin-bottom: 5px;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      padding-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .registration form {
+      flex-direction: column;
+    }
+  
+    .registration input {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .community-members {
+      flex-wrap: wrap;
+    }
+  
+    .community-members img {
+      margin: 10px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-right {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
